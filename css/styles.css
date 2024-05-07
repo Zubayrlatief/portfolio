@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .container-fluid {
+    background-color: lightgray;
+ }
+ .logo{
+    height: 125px;
+    size: 70px;
+ }
+ .navbar-brand {
+    height: 135px;
+    align-items: right;
+ }
+ .mail {
+    height: 20px;
+    size: 50px;
+ }
+ 
+.navbar-nav{
+    text-align: end;
+}
+#navbarn{
+ display: flex;
+ margin-left: 55vw;
+ 
+}
+.img {
+    border-radius: 60%;
+    margin: 0 auto;
+    height: 300px;
+
+}
+.image-fluid {
+    border-radius: 60%;
+   }
+ 
