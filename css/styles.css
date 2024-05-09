@@ -32,54 +32,111 @@
  margin-left: 55vw;
  
 }
-.img {
-    margin: auto;
-    height: 1080px;
-    width: 800px;
-   }
-.image-fluid {
-    border-radius: 60%;
-   }
-   .h1{
-   text-align: center;
-   font-family: Arial, Helvetica, sans-serif;
-   background-color:rgb(222, 184, 184);
-   text-decoration: ;
-   margin-bottom: 1rem;
-    }
-
+/*landing*/
+.landing{
+   width: 100%;
+   padding: 80px 12%;
+}
+.rowH{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-content: center;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.colH{
+   flex-basis: 50%;
+}
+.colH h1{
+   padding-top: 150px;
+   color: #fff;
+   text-shadow: 2px 2px 4px #000;
+   font-size: 60px;
+}
+.colH h3{
+   color: #fff;
+   text-shadow: 2px 2px 4px #000;
+   font-size: 40px;
+}
+.colH p{
+   color: #fff;
+   text-shadow: 2px 2px 4px #000;
+   padding-bottom: 40px;
+   font-size: 20px;
+}
    .background{
     background-color:rgb(222, 184, 184);
    }
  
-   .info{
-   box-align: center;
-   text-align: center;
-   margin-top: 5%;
-   font-family: 'Trebuchet MS',;
+  /*about*/
+.about{
+   width: 100%;
+   padding: 80px 12%;
+   color: #fff;
+   position: relative;
+}
+.row-about{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.col-about{
+   flex-basis: 50%;
+}
+.col-about img{
+   width: 220px;
+   height: 220px;
+}
+.about h2{
+   text-shadow: 2px 2px 4px #000;
    }
-   .rectangleback{
-      width: 1200px; 
-      height: 400px; 
-      background-color: rgb(171, 112, 128); /* Set the background color*/
-      margin: 10%; 
-   }
-   .text{
-      text-align: center;
-      font-size: x-large;
-      font-family: sans-serif;
-   }
+
    #section {
       height: 100vh;
    }
+/*my skills*/
+.skills{
+   
+}
 
-   .card1b{
-      display: flex;
-      justify-content: baseline;
-      align-items: baseline;
-   }
-   .card2b{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
+
+
+
+
+
+
+
+/*testimonials*/
+.card{
+   
+}
+
+
+
+
+
+
+
+   /*contact*/
+.contact{
+   width: 100%;
+   padding: 80px 12%;
+   color: #fff;
+   position: center;
+}
+.contact h2{
+   padding-bottom: 40px;
+   text-shadow: 2px 2px 4px #000;
+   font-size: 40px;
+   color: #fff;
+}
+.contact-form{
+   padding: 10px;
+}
